@@ -1,24 +1,17 @@
-<h1 align='center'>🜾</h1>
+<h1 align='center'>MCN</h1>
 
 <p align='center'>
-  MaGiK DoR - Base Vite Template for Coventry Grove sites incorporating new myrKiSs Builder Structure
+  Welcome to the base template for a Myriad Central Node. Anyone can host a central node, interaction with other nodes is determined by a mutually agreeded upon level of processing between nodes, determined by the moderators of that node.
 </p>
 
 <p align='center'>
-<a href="https://github.com/BBuchholz/worthy-mountain">Worthy Mountain</a>'s Tag Line Was: Preparing tha Vessels 2B <b>MystiQal Wizards</b><sup><em>Movin' Wights</em></sup><br>
+  Myriad is a Decentralized Ecosystem, built upon a backbone of interconnected "Central Nodes". To Spin another up, follow the steps below and link up to existing nodes you follow within the ecosystem.
 </p>
-
-<p align='center'>
-For the previous Projeckt, <a href="https://github.com/BBuchholz/magik-wel">MaGiK WeL</a>, tha Directive Came Through as "Carve Steps From Tha Worthy Mountain To Build Tha MaGiK WeL" and here we are
-<br>
-</p>
-
-In this Projeckt, WE are beginning to follow those steps up to the DoR-WaY that opens only to the myrKiSs we find along the PaTh...
 
 <br>
 
 <p align='center'>
-<a href="https://magik-dor.netlify.app/">Live Demo</a>
+<a href="https://myriad-central-node.netlify.app/">Live Demo</a>
 </p>
 
 <br>
@@ -26,19 +19,19 @@ In this Projeckt, WE are beginning to follow those steps up to the DoR-WaY that 
 
 ## Try it now!
 
-> MaGiK DoR requires Node >=14.18
+> Myriad Central Node requires Node >=14.18
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/BBuchholz/magik-dor/generate).
+[Create a repo from this template on GitHub](https://github.com/BBuchholz/myriad-central-node/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit BBuchholz/magik-dor my-magik-dor-app
-cd my-magik-dor-app
+npx degit BBuchholz/myriad-central-node my-myriad-central-node-app
+cd my-myriad-central-node-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
