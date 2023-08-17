@@ -11,7 +11,7 @@
 <br>
 
 <p align='center'>
-<a href="https://myriad-central-node.netlify.app/">Live Demo</a>
+<a href="https://myriad-central.netlify.app/">Live Demo</a>
 </p>
 
 <br>
@@ -30,8 +30,8 @@
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit BBuchholz/myriad-central-node my-myriad-central-node-app
-cd my-myriad-central-node-app
+npx degit BBuchholz/myriad-central-node my-mcn-app
+cd my-mcn-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
