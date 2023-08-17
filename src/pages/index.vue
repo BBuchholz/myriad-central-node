@@ -16,25 +16,15 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <img alt="Coventry Grove Builders Association Presents logo" src="/CGBAP_LOGO_CROPPED.png">
-    <p>
-      <a rel="noreferrer" href="https://github.com/BBuchholz/magik-dor" target="_blank">
-        MaGiK DoR
-      </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>base template for all Coventry Grove Projeckts</em>
-    </p>
-
     <div py-4 />
 
     <TheInput
       v-model="anyMyrKi"
-      placeholder="enter myrKi..."
+      placeholder="enter passcode..."
       autocomplete="false"
       @keydown.enter="go"
     />
-    <label class="hidden" for="input">We require more than a mere key for entry...</label>
+    <label class="hidden" for="input">P4SSC0DE REQU1R3D 4 ENTRY</label>
 
     <div>
       <button
@@ -45,6 +35,15 @@ const { t } = useI18n()
         {{ t('button.go') }}
       </button>
     </div>
+    <p>
+      <a rel="noreferrer" href="https://github.com/BBuchholz/myriad-central-node" target="_blank">
+        Myriad Central Node
+      </a>
+    </p>
+    <p>
+      <em text-sm opacity-75>You are currently at a Central Node within the Myriad Ecosystem</em>
+    </p>
+    <img alt="Myriad Central Node logo" src="/Myriad_Central_Node.jpg">
   </div>
 </template>
 
@@ -55,12 +54,12 @@ meta:
 
 <style>
 img {
-  height: 25%;
-  width: 25%;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 </style>
