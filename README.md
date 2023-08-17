@@ -14,6 +14,8 @@
 <a href="https://myriad-central.netlify.app/">Live Demo</a>
 </p>
 
+<p>Try PASSCODES "ADMIT_1" and "ADMITONE" for demo purposes</p>
+
 <br>
 
 
