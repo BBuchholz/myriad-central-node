@@ -8,7 +8,8 @@ export const useUserStore = defineStore('user', () => {
   const previousMyrKis = ref(new Set<string>())
 
   const usedMyrKis = computed(() => Array.from(previousMyrKis.value))
-  const otherMyrKis = computed(() => usedMyrKis.value.filter(anyMyrKi => anyMyrKi !== savedMyrKi.value))
+  const otherMyrKis = computed(() => usedMyrKis.value)
+  // const otherMyrKis = computed(() => usedMyrKis.value.filter(anyMyrKi => anyMyrKi !== savedMyrKi.value))
 
   /**
    * Changes the current myrKi of the user and saves the one that was used

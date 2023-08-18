@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-import StepInStone from '~/components/StepInStone.vue'
+const user = useUserStore()
 
 const testWxrds = ref([
   {
@@ -32,7 +32,18 @@ const testWxrds = ref([
 </script>
 
 <template>
-  <p>
+  <p mt-4 text-sm>
+    <span opacity-75>Recently attempts:</span>
+    <ul>
+      <li v-for="otherMyrKi in user.otherMyrKis" :key="otherMyrKi">
+        <RouterLink :to="`/myrKiSs/${otherMyrKi}`" replace>
+          {{ otherMyrKi }}
+        </RouterLink>
+      </li>
+    </ul>
+  </p>
+
+  <!-- <p>
     Wxrds
   </p>
 
@@ -45,5 +56,5 @@ const testWxrds = ref([
     :content="wxrd.content"
     :related="wxrd.related"
     :image="wxrd.image"
-  />
+  /> -->
 </template>

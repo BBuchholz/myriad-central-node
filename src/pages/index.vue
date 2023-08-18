@@ -7,8 +7,10 @@ const anyMyrKi = $ref(user.savedMyrKi)
 
 const router = useRouter()
 function go() {
-  if (anyMyrKi)
+  if (anyMyrKi) {
     router.push(`/myrKiSs/${encodeURIComponent(anyMyrKi)}`)
+    user.setNewMyrKi(anyMyrKi)
+  }
 }
 
 const { t } = useI18n()
