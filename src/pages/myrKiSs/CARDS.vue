@@ -70,7 +70,7 @@ const allCards = ref([
     wxrdtype: '',
     localDescription: 'Coventry Grove Builders Association',
     uuid: '',
-    image: '',
+    image: '/CGBA-13c9.png',
   },
 ])
 </script>
