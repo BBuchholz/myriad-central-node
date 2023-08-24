@@ -1,7 +1,7 @@
 
 "Ecosystem Checklist"
 - [ ] every card has a description
-- [ ] every site has at least one card
+- [IN PROGRESS SEE BELOW UNDER "SISTER SITES"] every site has at least one card
     - [ ] eventually, every site has its own card for each other site (variants specific to relationship)
 - [ ] every site has at least one activity card (type)
 - [ ] every site has "CARDS.vue" accurrate and up to date
@@ -9,11 +9,7 @@
 - [ ] A Myriad Central Node Instance should follow the "Anatomy of a Myriad Central Node" (see below)
 
 
-"Anatomy of a MyrKi"
-- [ ] UUID
-- [ ] Image File in public/ folder
-- [ ] PassCode keyed to a vue component in myrkiss folder
-- [ ] local description (each site will have a potentially different take)
+
 
 
 "Anatomy of a Myriad Central Node"
@@ -23,20 +19,37 @@
     - [ ] should be alphabetically listed by passcode in the file to mirror the directory structure of the cards/myrKiSs themselves
 
 "Sister Sites"
-- [ ] should link to all these sites (at least one card for each)
-    - [ ] STS
-    - [ ] Sonic Circle
-    - [ ] Jus Be U
-    - [ ] BAOLG
-    - [ ] MC Credit Union
-    - [ ] AMOS (adapted, modify it and change it to be more in line with current endeavors)
-    - [ ] CGBA (should mention other sites with a warning)
-- [ ] only CG sites should link to these (leaving here for totality of vision, these belong in CGBA)
-    - [ ] MADAMADAM
-    - [ ] AWLWA CG
-    - [ ] OBAOLG
-    - [ ] JSY
-    - [ ] CapMart
-    - [ ] SCA (and SCHS)
-    - [ ] CG Credit Union
-    - [ ] thaGarDin should be replaced by CGBA
+- [ ] [CARDS.vue](./src/pages/myrKiSs/CARDS.vue) should link to all these sites (at least one card for each)
+    - [ ] STS 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+    - [ ] Sonic Circle 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+    - [ ] Jus Be U 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+    - [ ] BAOLG 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+    - [ ] MC Credit Union 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+            - [ ] Image File in public/ folder
+    - [ ] AMOS (adapted, modify it and change it to be more in line with current endeavors) 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+            - [ ] Image File in public/ folder
+    - [ ] CGBA (should mention other sites with a warning, site list moved to CGBA repo, just focus on MC sites here) 
+        - ("Anatomy of a MyrKi")
+            - [ ] UUID
+            - [ ] verify link works (test traversal)
+            - [ ] Image File in public/ folder
+        
+
