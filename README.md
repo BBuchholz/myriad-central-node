@@ -101,6 +101,8 @@ When you use this template, try to follow the checklist to update your info prop
 
 - [ ] Clean up the README when finished
 
+- [ ] Maintain Myriad Compliance with the [MYRIAD_CHECKLIST](./MYRIAD_CHECKLIST.md)
+
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
