@@ -40,16 +40,14 @@
         - ("Anatomy of a MyrKi")
             - [ ] UUID
             - [ ] verify link works (test traversal)
-            - [ ] Image File in public/ folder
     - [ ] AMOS (adapted, modify it and change it to be more in line with current endeavors) 
         - ("Anatomy of a MyrKi")
             - [ ] UUID
             - [ ] verify link works (test traversal)
-            - [ ] Image File in public/ folder
     - [ ] CGBA (should mention other sites with a warning, site list moved to CGBA repo, just focus on MC sites here) 
         - ("Anatomy of a MyrKi")
             - [ ] UUID
             - [ ] verify link works (test traversal)
-            - [ ] Image File in public/ folder
+            
         
 
