@@ -56,14 +56,14 @@ const allCards = ref([
     wxrdtype: '',
     localDescription: 'Myriad Central Credit Union - Giving Credit Where Credit Is Due',
     uuid: '',
-    image: '',
+    image: '/MCCU-adec_CARD.png',
   },
   {
     passCode: 'AMOS',
     wxrdtype: '',
     localDescription: 'A Myriad Ov Services',
     uuid: '',
-    image: '',
+    image: '/AMOS-47cb_CARD.png',
   },
   {
     passCode: 'CGBA',
@@ -76,6 +76,13 @@ const allCards = ref([
 </script>
 
 <template>
+  <h1>"cArds OnThA tAble"</h1>
+  <p mt-4 text-sm>
+    The definitive way to see all "installed" cards on a particular MCN (Myriad Central Node). Anywhere within the Myriad EcoSysTem try typing "CARDS" to see your available options :)
+  </p>
+  <div class="card">
+    <img src="/CARDS-6752_CARD.png">
+  </div>
   <p mt-4 text-sm>
     <span opacity-75>Recently attempts:</span>
     <ul>
