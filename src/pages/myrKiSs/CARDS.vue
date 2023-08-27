@@ -52,6 +52,13 @@ const allCards = ref([
     image: '/STS-3ff9.png',
   },
   {
+    passCode: 'SYLFAN',
+    wxrdtype: '',
+    localDescription: 'Sylvan Circle Academy',
+    uuid: '',
+    image: '/SYLFAN-857a_CARD.png',
+  },
+  {
     passCode: 'MCCU',
     wxrdtype: '',
     localDescription: 'Myriad Central Credit Union - Giving Credit Where Credit Is Due',

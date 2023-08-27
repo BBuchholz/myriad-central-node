@@ -24,6 +24,10 @@
         - ("Anatomy of a MyrKi")
             - [ ] UUID
             - [ ] verify link works (test traversal)
+    - [ ] SCA (NEW)
+        - ("Anatomy of a MyrKi")            
+            - [ ] UUID
+            - [ ] verify link works   
     - [ ] Sonic Circle 
         - ("Anatomy of a MyrKi")
             - [ ] UUID
